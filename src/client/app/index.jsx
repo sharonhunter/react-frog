@@ -1,14 +1,12 @@
 import React from 'react';
 import {render} from 'react-dom';
-import Quote from './Quote.jsx';
-import QUOTES from './quotes.js';
+import Background from './Background.jsx';
+
 
 class App extends React.Component {
   render () {
     return (
-    	<div>
-    		<Quote />
-    	</div>
+      <Background />
     );
   }
 }
