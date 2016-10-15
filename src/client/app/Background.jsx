@@ -23,7 +23,8 @@ class Background extends React.Component {
         backgroundColor: "yellow",
         height: "100%",
         width: "100%",
-    }
+    };
+    
     return (
       <div style={style}>
         <Quote ref='quote' />
